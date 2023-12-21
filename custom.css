@@ -1,0 +1,284 @@
+ /* ADD YOUR CUSTOM CSS TO THIS FILE */
+/* GENERAL CSS */
+ .container {
+    overflow-x: hidden;
+}
+h2, .heading {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    text-transform: capitalize;
+    border-top: 2px solid;
+    width: 100vw;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 5%;
+}
+/* GENERAL CSS */
+
+ /* NAVIGATION */
+
+.nav-link {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    position: relative;
+    color: #525252
+}
+.navbar-nav {
+    column-gap: 15px;
+}
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    color: #000000;
+}
+.nav-link::after, .nav-link:active::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    border-radius: 1em;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+}
+.nav-link:hover::after, .nav-link:focus::after, .nav-link:active::after {
+    opacity: 1;
+}
+.navbar-brand {
+    font-family: 'Almarai', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+}
+.btn-outline-dark {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 3em;
+    color: #525252
+}
+nav {
+    animation: bgcolor infinite 20s;
+}
+@keyframes bgcolor {
+    10% {
+        background: #e9ffeb ;
+    }
+    20% {
+        background: #fffbc9;
+    }
+    30% {
+        background: #fcefe4;
+    }
+    40% {
+        background: #fce6e7 ;
+    }
+    50% {
+        background: #f8e7f5 ;
+    }
+    60% {
+        background: #f9eeff ;
+    }
+    70% {
+        background: #e7f0fd ;
+    }
+    80% {
+        background: #ddf7ff ;
+    }
+    90% {
+        background: #e0fcff ;
+    }
+    100% {
+        background: #e1fff9 ;
+    }
+    110% {
+        background: #e9ffeb ;
+    }
+}
+/* NAVIGATION */
+
+/* CHANGING BACKGROUND COLORS */
+header {
+    animation: bgcolor infinite 20s;
+    height: 100vh;
+    width: 100vw;
+}
+@keyframes bgcolor {
+    10% {
+        background: #e9ffeb ;
+    }
+    20% {
+        background: #fffbc9;
+    }
+    30% {
+        background: #fcefe4;
+    }
+    40% {
+        background: #fce6e7 ;
+    }
+    50% {
+        background: #f8e7f5 ;
+    }
+    60% {
+        background: #f9eeff ;
+    }
+    70% {
+        background: #e7f0fd ;
+    }
+    80% {
+        background: #ddf7ff ;
+    }
+    90% {
+        background: #e0fcff ;
+    }
+    100% {
+        background: #e1fff9 ;
+    }
+    110% {
+        background: #e9ffeb ;
+    }
+}
+/* CHANGING BACKGROUND COLORS */
+
+/* HEADER */
+h1, .fw-bolder {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 95px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 13%;
+    padding-left: 5%;
+    color: #000000;
+}
+.lead {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#000000;
+    text-align: left;
+    padding-left: 5%;
+    border-right: 5px solid;
+    width: 52%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 3s steps(26),
+        cursor .4s step-end infinite alternate;
+}
+.btn-light {
+    border-radius: 3em;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
+}
+/* BLINKING CURSOR */
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+/* BLINKING CURSOR */
+
+/* TYPING EFFECT */
+@keyframes typing {
+    from { width: 0 }
+}
+/* TYPING EFFECT */
+/* HEADER */
+
+/* ABOUT SECTION */
+.about {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 2%;
+}
+/* PROJECTS SECTION */
+.card-text {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+.card {
+    border: none;
+}
+.card-lead {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.bi-arrow-right {
+    padding-left: 2%;
+    font-size: 25px;
+    font-weight: 800;
+}
+/* PROJECTS SECTION */
+
+/* CONTACT SECTION */
+h4, .contact-lead {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+p, .contact {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.email, .phone, .linkedin {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.c-icon {
+    color:#96c607;
+}
+.c-link {
+    color: black;
+}
+.c-link:hover {
+    color:#96c607;
+}
+/* CONTACT SECTION */
+
+/* RESUME SECTION */
+.page-header {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+    font-size: 95px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 13%;
+    padding-left: 5%;
+    color: #000000;
+}
+.btn-outline-dark, .resume {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 800;
+}
+/* RESUME SECTION */
+
+/* PROJECT PAGE */
+.project-header {
+    height: 90%;
+    width: 100vw;
+}
+.project-lead {
+    font-family: 'Almarai', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: capitalize;
+    color:#000000;
+    text-align: left;
+    padding-left: 5%;
+}
+/* PROJECT PAGE */
